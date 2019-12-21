@@ -71,6 +71,9 @@ i {
 }
 
 @media only screen and (max-width: 380px) {
+  .container {
+    background-size: 100vmax 100vmax;
+  }
   .main {
     width: 13em;
     height: 75%;
