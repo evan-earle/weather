@@ -4,9 +4,8 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-html,
-body {
-  height: 100%;
+html {
+  overflow: hidden;
 }
 
 .container {

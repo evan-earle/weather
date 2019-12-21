@@ -77,6 +77,7 @@ const Weather = props => {
         <div className="weather">
           <div className="city">
             <h2>{props.city}</h2>
+            test
           </div>
           <div className="high-low">
             <p>
