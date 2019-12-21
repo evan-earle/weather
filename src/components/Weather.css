@@ -18,7 +18,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 20em;
-  height: 65vh;
+  height: 38em;
   color: white;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .icon {
-  margin-top: 6em;
+  margin-top: 5em;
 }
 
 i {
@@ -73,15 +73,18 @@ i {
 @media only screen and (max-width: 380px) {
   .main {
     width: 13em;
-    height: 65vh;
+    height: 75%;
   }
+
   i {
     font-size: 5em;
     opacity: 1;
   }
+
   .icon {
     margin-top: 3em;
   }
+
   .temperature {
     font-size: 2em;
   }
