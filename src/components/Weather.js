@@ -20,8 +20,8 @@ const options = {
   month: "long",
   day: "numeric"
 };
-let icon = "fas fa-sun";
-let background = { backgroundImage: `url(${clearday})` };
+let icon = "";
+let background = { backgroundImage: `url(${undefined})` };
 
 const Weather = props => {
   if (props.condition === "Thunderstorm") {
@@ -51,14 +51,6 @@ const Weather = props => {
       icon = "fas fa-snowflake";
       background = { backgroundImage: `url(${snownight})` };
     }
-  } else if (props.condition === "Clear") {
-    if (time >= 7 && time <= 19) {
-      icon = "fas fa-sun";
-      background = { backgroundImage: `url(${clearday})` };
-    } else {
-      icon = "fas fa-moon";
-      background = { backgroundImage: `url(${clearnight})` };
-    }
   } else if (props.condition === "Clouds") {
     if (time >= 7 && time <= 19) {
       icon = "fas fa-cloud";
@@ -67,7 +59,16 @@ const Weather = props => {
       icon = "fas fa-cloud-moon";
       background = { backgroundImage: `url(${cloudnight})` };
     }
+  } else {
+    if (time >= 7 && time <= 19) {
+      icon = "fas fa-sun";
+      background = { backgroundImage: `url(${clearday})` };
+    } else {
+      icon = "fas fa-moon";
+      background = { backgroundImage: `url(${clearnight})` };
+    }
   }
+
   return (
     <div className="container" style={background}>
       <div className="main">

@@ -32,7 +32,6 @@ class App extends React.Component {
       `http://api.openweathermap.org/data/2.5/weather?lat=${this.state.lat}&lon=${this.state.lon}&appid=${KEY}&units=metric`
     );
     const data = await apiCall.json();
-    console.log(data);
 
     if (this.state.city === undefined && !this.state.errorMessage) {
       this.setState({
