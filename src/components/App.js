@@ -29,7 +29,7 @@ class App extends React.Component {
   componentDidUpdate = async e => {
     const KEY = "bb8e6e0b5b2c5fe4f165e455e9e53400";
     const apiCall = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?lat=${this.state.lat}&lon=${this.state.lon}&appid=${KEY}&units=metric`
+      `http://api.openweathermap.org/data/2.5/weather?lat=${this.state.lat}&lon=${this.state.lon}&appid=${KEY}&units=metric`
     );
     const data = await apiCall.json();
     console.log(data);
