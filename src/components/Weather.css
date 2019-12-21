@@ -94,4 +94,12 @@ i {
   .temperature {
     font-size: 2em;
   }
+  .city {
+    margin-top: 1em;
+    font-size: 1.5em;
+  }
+  .high-low {
+    margin-top: 3em;
+    font-size: 1em;
+  }
 }
