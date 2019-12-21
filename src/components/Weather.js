@@ -20,8 +20,8 @@ const options = {
   month: "long",
   day: "numeric"
 };
-let icon = "";
-let background = { backgroundImage: `url(${undefined})` };
+let icon = "fas fa-sun";
+let background = { backgroundImage: `url(${clearday})` };
 
 const Weather = props => {
   if (props.condition === "Thunderstorm") {
@@ -29,26 +29,26 @@ const Weather = props => {
     background = { backgroundImage: `url(${thunder})` };
   } else if (props.condition === "Drizzle") {
     if (time >= 7 && time <= 19) {
-      icon = "fas fa-sun";
+      icon = "fas fa-cloud-sun";
       background = { backgroundImage: `url(${drizzleday})` };
     } else {
-      icon = "fas fa-moon";
+      icon = "fas fa-cloud-moon-rain";
       background = { backgroundImage: `url(${drizzlenight})` };
     }
   } else if (props.condition === "Rain") {
     if (time >= 7 && time <= 19) {
-      icon = "fas fa-sun";
+      icon = "fas fa-cloud-showers-heavy";
       background = { backgroundImage: `url(${rainday})` };
     } else {
-      icon = "fas fa-moon";
+      icon = "fas fa-cloud-moon-rain";
       background = { backgroundImage: `url(${rainnight})` };
     }
   } else if (props.condition === "Snow") {
     if (time >= 7 && time <= 19) {
-      icon = "fas fa-sun";
+      icon = "fas fa-snowflake";
       background = { backgroundImage: `url(${snowday})` };
     } else {
-      icon = "fas fa-moon";
+      icon = "fas fa-snowflake";
       background = { backgroundImage: `url(${snownight})` };
     }
   } else if (props.condition === "Clear") {
@@ -61,10 +61,10 @@ const Weather = props => {
     }
   } else if (props.condition === "Clouds") {
     if (time >= 7 && time <= 19) {
-      icon = "fas fa-sun";
+      icon = "fas fa-cloud";
       background = { backgroundImage: `url(${cloudday})` };
     } else {
-      icon = "fas fa-moon";
+      icon = "fas fa-cloud-moon";
       background = { backgroundImage: `url(${cloudnight})` };
     }
   }
