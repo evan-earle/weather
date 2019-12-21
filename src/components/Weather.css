@@ -4,6 +4,11 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+html {
+  height: 100vh;
+  min-height: 100%;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -71,9 +76,6 @@ i {
 }
 
 @media only screen and (max-width: 380px) {
-  .container {
-    height: 115%;
-  }
   .main {
     width: 13em;
     height: 30em;
