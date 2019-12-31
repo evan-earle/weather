@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/weather/static/css/main.786b7ce3.chunk.css",
+    "main.js": "/weather/static/js/main.b9c82d48.chunk.js",
+    "main.js.map": "/weather/static/js/main.b9c82d48.chunk.js.map",
+    "runtime-main.js": "/weather/static/js/runtime-main.f857f3f3.js",
+    "runtime-main.js.map": "/weather/static/js/runtime-main.f857f3f3.js.map",
+    "static/css/2.cd8266bd.chunk.css": "/weather/static/css/2.cd8266bd.chunk.css",
+    "static/js/2.07af4ee8.chunk.js": "/weather/static/js/2.07af4ee8.chunk.js",
+    "static/js/2.07af4ee8.chunk.js.map": "/weather/static/js/2.07af4ee8.chunk.js.map",
+    "index.html": "/weather/index.html",
+    "precache-manifest.41100626f3eda0929e702edf142a339f.js": "/weather/precache-manifest.41100626f3eda0929e702edf142a339f.js",
+    "service-worker.js": "/weather/service-worker.js",
+    "static/css/2.cd8266bd.chunk.css.map": "/weather/static/css/2.cd8266bd.chunk.css.map",
+    "static/css/main.786b7ce3.chunk.css.map": "/weather/static/css/main.786b7ce3.chunk.css.map",
+    "static/js/2.07af4ee8.chunk.js.LICENSE": "/weather/static/js/2.07af4ee8.chunk.js.LICENSE",
+    "static/media/clearday.jpg": "/weather/static/media/clearday.6bdfa5da.jpg",
+    "static/media/clearnight.JPG": "/weather/static/media/clearnight.69fd96fd.JPG",
+    "static/media/cloudday.JPG": "/weather/static/media/cloudday.091b8dfb.JPG",
+    "static/media/cloudnight.JPG": "/weather/static/media/cloudnight.28ef48a2.JPG",
+    "static/media/drizzleday.JPG": "/weather/static/media/drizzleday.ae4b352b.JPG",
+    "static/media/drizzlenight.JPG": "/weather/static/media/drizzlenight.702eba1d.JPG",
+    "static/media/font-awesome.min.css": "/weather/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/rainday.JPG": "/weather/static/media/rainday.f92070c6.JPG",
+    "static/media/rainnight.JPG": "/weather/static/media/rainnight.03654807.JPG",
+    "static/media/snowday.JPG": "/weather/static/media/snowday.662cf103.JPG",
+    "static/media/snownight.JPG": "/weather/static/media/snownight.5e1a0f63.JPG",
+    "static/media/thunder.JPG": "/weather/static/media/thunder.eeb75134.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f857f3f3.js",
+    "static/css/2.cd8266bd.chunk.css",
+    "static/js/2.07af4ee8.chunk.js",
+    "static/css/main.786b7ce3.chunk.css",
+    "static/js/main.b9c82d48.chunk.js"
+  ]
+}
