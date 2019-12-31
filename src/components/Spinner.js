@@ -10,11 +10,7 @@ const style = {
 };
 
 const Spinner = props => {
-  return (
-    <div className="ui text loader" style={style}>
-      {props.message}
-    </div>
-  );
+  return <div style={style}>{props.message}</div>;
 };
 
 export default Spinner;
