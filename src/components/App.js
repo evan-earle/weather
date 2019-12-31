@@ -65,15 +65,14 @@ class App extends React.Component {
           />
         </div>
       );
+    } else {
+      return (
+        <div>
+          <Spinner message="Please accept location request" />
+        </div>
+      );
     }
-
-    return (
-      <div>
-        <Spinner message="Please accept location request" />
-      </div>
-    );
   }
-
   render() {
     return <div>{this.renderContent()}</div>;
   }
